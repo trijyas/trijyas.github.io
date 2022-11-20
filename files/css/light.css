@@ -13,7 +13,7 @@ body{
 .logo,h1,h2,h3,h4{
     color: #242F65;
 }
-p{
+p,li,ul,pre,div{
     color: #767B92;
 }
 
@@ -23,5 +23,9 @@ p{
 }
 
 .imageIntro > h2{
+    color: #242F65;
+}
+
+.nav-item{
     color: #242F65;
 }
