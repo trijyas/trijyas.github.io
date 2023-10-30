@@ -68,3 +68,4 @@ pubmatic.com, 159856, DIRECT, 5d62403b186f2ace
 smartadserver.com, 4194, DIRECT
 smartadserver.com, 4194-OB, RESELLER, 060d053dcf45cbf3
 smartadserver.com, 4194, RESELLER, 060d053dcf45cbf3
+facebook.com, 1079203326345376, DIRECT, c3e20eee3f780d68
