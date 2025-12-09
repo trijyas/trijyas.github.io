@@ -162,3 +162,10 @@ video.unrulymedia.com, 895733750, DIRECT
 sovrn.com, 357833, DIRECT, fafdf38b16bf6b2b
 lijit.com, 357833, DIRECT, fafdf38b16bf6b2b
 lijit.com, 357833-eb, DIRECT, fafdf38b16bf6b2b
+
+#pubmax
+google.com, pub-5408720375342272, DIRECT, f08c47fec0942fa0
+facebook.com, 1400062737717505, DIRECT, c3e20eee3f780d68
+applovin.com, 2110efb6bfe675672b9bab60f7bbb8e4, DIRECT
+OWNERDOMAIN=trijyas.in
+ironsrc.com, [322053], Direct
