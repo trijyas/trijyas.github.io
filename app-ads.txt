@@ -169,3 +169,8 @@ facebook.com, 1400062737717505, DIRECT, c3e20eee3f780d68
 applovin.com, 2110efb6bfe675672b9bab60f7bbb8e4, DIRECT
 OWNERDOMAIN=trijyas.in
 ironsrc.com, [322053], Direct
+
+
+##Mobfox##
+uis.mobfox.com, 2510, DIRECT, 5529a3d1f59865be
+pubmatic.com, 156451, RESELLER, 5d62403b186f2ace
