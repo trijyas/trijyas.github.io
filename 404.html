@@ -19,6 +19,24 @@
   gtag('js', new Date());
 
   gtag('config', 'G-TBNP2N5ZYK');
+
+    (function () {
+        var path = window.location.pathname;
+
+        // Normalize (remove trailing slash)
+        if (path.length > 1 && path.endsWith("/")) {
+          path = path.slice(0, -1);
+        }
+
+        // Match /app or anything under /app/*
+        if (path.startsWith("/apps/grid-app-for-artists")) {
+          window.location.replace("/apps/grid-app-for-artists/");
+          return;
+        }
+
+        // Optional: fallback
+        // window.location.replace("/");
+      })();
 </script>
 </head>
 
