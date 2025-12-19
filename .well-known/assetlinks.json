@@ -1,0 +1,12 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.ar4j.grid4artists",
+      "sha256_cert_fingerprints": [
+        "PASTE_PLAY_SIGNING_SHA256_HERE"
+      ]
+    }
+  }
+]
