@@ -175,7 +175,7 @@ ironsrc.com, [322053], Direct
 uis.mobfox.com, 2510, DIRECT, 5529a3d1f59865be
 pubmatic.com, 156451, RESELLER, 5d62403b186f2ace
 
-facebook.com, 1795277794512981, RESELLER, c3e20eee3f780d68
+facebook.com, 3374226809397767, RESELLER, c3e20eee3f780d68
 
 castify.ai, 1295184, RESELLER
 mars.media, 1010442, RESELLER, 8624339f102fb076
