@@ -493,3 +493,6 @@ orangeclickmedia.com, c-1181, RESELLER
 undertone.com, 4108, RESELLER
 yabbi.me, 675d9254-4032-47ed-9074-b6ef4dbab522, RESELLER
 yeahmobi.com, 5135195, RESELLER
+
+#liftoff
+vungle.com, 69590c039ed1ceb71097f8eb, DIRECT, c107d686becd2d77
