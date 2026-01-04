@@ -169,7 +169,6 @@ facebook.com, 1400062737717505, DIRECT, c3e20eee3f780d68
 applovin.com, 2110efb6bfe675672b9bab60f7bbb8e4, DIRECT
 OWNERDOMAIN=trijyas.in
 ironsrc.com, [322053], Direct
-
 rubiconproject.com, 24400, RESELLER, 0bfd66d529a55807
 video.unrulymedia.com, 2464975885, RESELLER
 outbrain.com, 0023749a2264ea0429a71b54ac9ca0de9a, RESELLER
