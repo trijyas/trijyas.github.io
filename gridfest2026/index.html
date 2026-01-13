@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>Grid App for Artists - Trijyas.in</title>
+    <title>GridFest 2026 - Trijyas.in</title>
     <base href="../">
     <link rel="canonical" href="gridfest2026/">
     <link rel="stylesheet" href="files/css/base.css" />
@@ -59,9 +59,13 @@ crossorigin="anonymous"></script>
     <style>
             #timer{
                 margin-bottom: 320px;
+                color: black ;
+                font-size: 20px;
             }
             #timer::before{
-                content: "Event Countdown";
+                margin: 50px;
+                content: "GridFest 2026 Starts in";
+                font-size: 24px;
                 display: block;
             }
             #gridfest{
@@ -71,8 +75,33 @@ crossorigin="anonymous"></script>
                 display: block;
             }
 
+            .timeTile{
+                margin: 5px;
+                padding: 5px;
+                display: inline-block;
+                width: 50px;
+                text-align: center;
+                background-color: white;
+                border-radius: 4px;
+                vertical-align: middle;
+                color: black;
+
+                box-shadow: 0 0 5px 2px rgba(0,0,0,0.05);
+
+            }
+            .timeTile > span{
+                display: block;
+                font-size: 8px;
+                line-height: 1.5em;
+                color: gray;
+            }
+            .timeTile > span:first-child{
+                color: black;
+                font-size: 32px !important;
+            }
+
     </style>
-    <h1 id="timer" style="text-align: center;"> 11 Days : 00 Hours : 00 Minutes :: 00 Seconds </h3>
+    <h1 id="timer" style="text-align: center;"></h3>
 
 
     <div id="gridfest" class="container gridapp">
@@ -136,6 +165,9 @@ crossorigin="anonymous"></script>
             #gridFestHeading > p{
                 text-align: left;                
             }
+
+            
+
             
 
         </style>
@@ -327,10 +359,11 @@ Follower count, views, or popularity do not matter — creativity does.<br/>
         timer = document.getElementById("timer");
         gridApp = document.getElementById("gridfest");
 
+        function pad(num){
+            return String(num).padStart(2, '0');
+        }
 
-
-        var interval = setInterval(()=>{
-
+        function update(){
             var eventDate = new Date(Date.UTC(2026,0,23,6,30,0));
             var currentdate = new Date(); 
             
@@ -357,11 +390,14 @@ Follower count, views, or popularity do not matter — creativity does.<br/>
 
                 var seconds = Math.floor( difference / (1000))
             
-                timer.innerHTML = days + " Days : " + hours + " Hours : " + minutes + " Minutes : " + seconds + " Seconds";
+                timer.innerHTML = "<div><p class='timeTile' ><span>" + pad(days) + "</span><span>Days</span></p>:<p class='timeTile'><span>" + pad(hours) + "</span><span>Hours</span></p>:<p class='timeTile'><span>" + pad(minutes) + "</span><span>Minutes</span></p>:<p class='timeTile'><span>" + pad(seconds) + "</span><span>Days</span></p></div>";
 
                 
             }
-        },500);
+        }
+
+        update();
+        var interval = setInterval(update,500);
         
         
 
