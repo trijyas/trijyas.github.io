@@ -168,6 +168,71 @@ crossorigin="anonymous"></script>
 
             
 
+            .awardCard{
+                position: relative;
+                width: 90%;
+                margin: 20px;
+                max-width: 320px;
+                padding: 0;
+                border-radius: 5px 5px;
+                border: solid white 4px;
+                border-color: white !important;
+                background-color: white;
+
+                filter: drop-shadow(-5px -5px 5px rgba(0,0,0,0.1));
+            }
+            .awardCard > .awardIcon{
+                position: absolute;
+                top: -24px;
+                left: -24px;
+                width: 48px;
+            }
+
+            .awardName{
+                display: block; 
+                text-align: center; 
+                text-transform: capitalize;
+                margin: 0;
+                margin: .75em;
+            }
+
+            .awardList, .awardImage{
+                font-size: 1em;
+                display: inline-block;
+                vertical-align: middle;
+                aspect-ratio: initial;
+                box-sizing: border-box;
+                width: 100%;
+                
+            
+            }
+
+            .awardName, .awardList, .awardImage{
+                margin: 0;
+                margin-top: 20px;
+            }
+
+            .awardList{
+                padding: 0;
+            }
+            .awardList > li{
+                display: block;
+                line-height: 1.5em;
+            }
+
+            .awardList > li::before{
+                content: "◆";
+                padding: 0 .5em;
+                display: inline-block;
+            }
+            .awardImage{
+               width: 90%;
+               display: block;
+               margin: 20px auto;
+            }
+
+            
+
             
 
         </style>
@@ -206,48 +271,111 @@ Follower count, views, or popularity do not matter — creativity does.<br/>
         </section>
         <section>
             <h2>Prizes</h2>            
-            <div class="card appUseCard" style="border: solid #fdba12 4px; background: linear-gradient(#fdba120f,#fdba120f), linear-gradient(white,white);;">
-                <object type="image/svg+xml" data="gridfest2026/files/prize_1st.svg" width="48px" style="vertical-align: middle; margin-right: 32px; display: block; margin: auto; " >Your browser does not support SVG</object>
-                <h3 style="vertical-align: middle; display: block; text-align: center;" >Gold</h3>
-                <p>
-                    <ol>
-                        <li>Derwent Chromaflow 48<br></li>
-                        <li>Staedtler Mars Lumograph 12</li>
-                    </ol>
-                </p>
+            <div class="card awardCard" style="border-color: #fdba12;">
+                <object class="awardIcon" type="image/svg+xml" data="gridfest2026/files/prize_1st.svg" >Your browser does not support SVG</object>
+                <h3 class="awardName"  >Golden Award</h3>
+                
+                <ul class="awardList">
+                        <li>Derwent Chromaflow 48</li>
+                        <li>Staedtler Mars Lumograph 20</li>
+                        <li>Brustro Bristol Ultra Smooth A4</li>
+                        <li>Brustro Charcoal Drawing Set</li>
+                        <li>Brustro Mechanical Pencil</li>
+                        <li>Camlin Scholar+ Instrument Box</li>
+                        <li>Artist Masking Tape</li>
+                </ul>
+                <img class="awardImage" src="gridfest2026/files/goldPrizeProducts.jpg">
+                
             </div>
-            <div class="card appUseCard" style="border: solid #bdbdbd 4px; background: linear-gradient(#bdbdbd0f,#bdbdbd0f), linear-gradient(white,white);">
-                <object type="image/svg+xml" data="gridfest2026/files/prize_2nd.svg" width="48px" style="vertical-align: middle; margin-right: 32px; display: block; margin: auto; " >Your browser does not support SVG</object>
-                <h3 style="vertical-align: middle; display: block; text-align: center;" >Silver</h3>
-                <p>
-                    <ol>
-                        <li>Derwent Chromaflow 48<br></li>
-                        <li>Staedtler Mars Lumograph 12</li>
-                    </ol>
-                </p>
+
+            <div class="card awardCard" style="border-color: #bdbdbd;">
+                <object class="awardIcon" type="image/svg+xml" data="gridfest2026/files/prize_2nd.svg" >Your browser does not support SVG</object>
+                <h3 class="awardName"  >Silver Award</h3>
+                
+                <ul class="awardList">
+                        <li>Derwent Chromaflow 24 + 12</li>
+                        <li>Faber Castell Pitt Graphite 11</li>
+                        <li>Brustro Bristol Ultra Smooth A4</li>
+                        <li>Brustro Charcoal Drawing Set</li>
+                        <li>Brustro Mechanical Pencil</li>
+                        <li>Camlin Scholar+ Instrument Box</li>
+                        <li>Art & Craft Masking Tape</li>
+                </ul>
+                <img class="awardImage" src="gridfest2026/files/silverPrizeProducts.jpg">
+                
             </div>
-            <div class="card appUseCard" style="border: solid #CD6632 4px; background: linear-gradient(#CD66320f,#CD66320f), linear-gradient(white,white);">
-                <object type="image/svg+xml" data="gridfest2026/files/prize_3rd.svg" width="48px" style="vertical-align: middle; margin-right: 32px; display: block; margin: auto; " >Your browser does not support SVG</object>
-                <h3 style="vertical-align: middle; display: block; text-align: center;" >Bronze</h3>
-                <p>
-                    <ol>
-                        <li>Derwent Chromaflow 48<br></li>
-                        <li>Staedtler Mars Lumograph 12</li>
-                    </ol>
-                </p>
+
+            <div class="card awardCard" style="border-color: #CD6632;">
+                <object class="awardIcon" type="image/svg+xml" data="gridfest2026/files/prize_3rd.svg" >Your browser does not support SVG</object>
+                <h3 class="awardName"  >Bronze Award</h3>
+                
+                <ul class="awardList">
+                        <li>Derwent Chromaflow 24</li>
+                        <li>Monte Marte Graphite Pencil 12</li>
+                        <li>Brustro Bristol Ultra Smooth A4</li>
+                        <li>Brustro Charcoal Drawing Set</li>
+                        <li>Brustro Mechanical Pencil</li>
+                        <li>Camlin Scholar+ Instrument Box</li>
+                        <li>Art & Craft Masking Tape</li>
+                </ul>
+                <img class="awardImage" src="gridfest2026/files/bronzePrizeProducts.jpg">
+                
             </div>
-            <div class="card appUseCard">
-                <span class="icon icon-grid_on" style="background-color: #FF5151;"></span>
-                <h3>Adjust Grid</h3>
-                <p><ol><li>Set grid size</li>
-                    <li>Adjust style, size/thickness, colour and opacity of line, diagonal and label</li></ol>
-                    Tip: You can adjust grid property different for all three.</p>
+
+            <div class="card awardCard" style="border-color: #CD6632;">
+                <object class="awardIcon" type="image/png" data="gridfest2026/files/prize_merit.png" >Your browser does not support SVG</object>
+                <h3 class="awardName"  >Mertit Award (x2)</h3>
+                
+                <ul class="awardList">
+                        <li>Derwent Procolour 12</li>
+                        <li>Brustro Graphite Pencils 12</li>
+                        <li>Brustro Drawing Paper A4</li>
+                        <li>Brustro Charcoal Pencils 4</li>
+                        <li>Pentel Mechanical Pencil</li>
+                        <li>Camlin Scholar+ Instrument Box</li>
+                        <li>Blending Stumps, Kneadable Eraser</li>
+                        <li>Art & Craft Masking Tape</li>
+                </ul>
+                <img class="awardImage" src="gridfest2026/files/meritPrizeProducts.jpg">
+                
             </div>
-            <div class="card appUseCard">
-                <span class="icon icon-paint-brush" style="background-color: #FF5151;"></span>
-                <h3>All Set</h3>
-                <p><span style="display: block;">You're all set!</span> Enjoy drawing with help of Zoom, Lock and Real Size. Compare or trace using Compare option.</p>
+
+            <div class="card awardCard" style="border-color: #CD6632;">
+                <object class="awardIcon" type="image/png" data="gridfest2026/files/prize_special.png" >Your browser does not support SVG</object>
+                
+                <h3 class="awardName"  >Special Mention (x5)</h3>
+                
+                <ul class="awardList">
+                        <li>Maped Color'Peps Pencils 24</li>
+                        <li>Camel SketchBook A4</li>
+                        <li>Faber Castell Drawing Pencils</li>
+                        <li>Camlin Charcoal Pencils</li>
+                        <li>Camlin Scholar Instrument Box</li>
+                        <li>Blending Stumps, Kneadable Eraser</li>
+                        <li>Art & Craft Masking Tape</li>
+                </ul>
+                <img class="awardImage" style="width: 83%;" src="gridfest2026/files/specialPrizeProducts.jpg">
+                
             </div>
+            <div class="card awardCard" style="border-color: #CD6632;">
+                <object class="awardIcon" type="image/png" data="gridfest2026/files/prize_lucky.png" >Your browser does not support SVG</object>
+                <h3 class="awardName"  >Lucky Winner (x2)</h3>
+                
+                <ul class="awardList">
+                        <li>Derwent Chromaflow 24</li>
+                        <li>Camel Sketch Book A4</li>
+                        <li>Faber Castell Drawing Pencils</li>
+                        <li>Camlin Scholar Instrument Box</li>
+                        <li>Blending Stumps, Kneadable Eraser</li>
+                        <li>Art & Craft Masking Tape</li>
+                </ul>
+                <img class="awardImage" src="gridfest2026/files/luckyPrizeProducts.jpg">
+                
+            </div>
+
+            <div> <h3>+ 90 Days Premium Subscription to All Participants</h3></div>
+
+            
         </section>
         <section class="coloredbg" id="participation" >
             <h2>🎉 HOW TO ENTER THE GIVEAWAY 🎉</h2>
@@ -352,7 +480,10 @@ Follower count, views, or popularity do not matter — creativity does.<br/>
 
         </section>
         
-    
+        <section>
+            <p>Read full term and conditions of the event <a href="gridfest2026/terms.html">here</a>.</p>
+        </section>
+        
     </div>
 
     <script>
