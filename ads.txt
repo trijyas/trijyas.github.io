@@ -1,3 +1,5 @@
+google.com, pub-7365679509423769, DIRECT, f08c47fec0942fa0
+
 inmobi.com, 6706ce28d0f746648116fa09153009e6, DIRECT, 83e75a7ae333ca9d
 rubiconproject.com, 11726, RESELLER, 0bfd66d529a55807
 rubiconproject.com, 12266, RESELLER, 0bfd66d529a55807
