@@ -914,3 +914,9 @@ zmaticoo.com,5135063,RESELLER
 zmaticoo.com,5135224,RESELLER
 zmaticoo.com,5135302,RESELLER
 zoomd.com,88478941,RESELLER
+kargo.com,9101,RESELLER,98ccdd9948ed08da
+openx.com,561446248,RESELLER,6a698e2ec38604c6
+sharethrough.com,4383,RESELLER,d53b998a7bd4ecd2
+sharethrough.com,4811,RESELLER,d53b998a7bd4ecd2
+smartadserver.com,4811,RESELLER,060d053dcf45cbf3
+toponad.com,16513d1e193a2a,RESELLER,1d49fe424a1a456d
