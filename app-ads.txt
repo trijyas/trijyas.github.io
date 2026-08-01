@@ -191,6 +191,7 @@ media.net, 8cu9b72o6, RESELLER
 
 #liftoff
 vungle.com,69590c039ed1ceb71097f8eb,DIRECT,c107d686becd2d77
+eskimi.com,2020001211,RESELLER
 33across.com,001Pg0000197KcKIAU,RESELLER,bbea06d9c4d2853c
 contextweb.com,562852,RESELLER,89ff185a4c4e857c
 media.net,8CU12AQ1Y,RESELLER
