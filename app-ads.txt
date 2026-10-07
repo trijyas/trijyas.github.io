@@ -20,6 +20,7 @@ rubiconproject.com, 22884, DIRECT, 0bfd66d529a55807
 
 
 #unityads
+smaato.com, 1100059345, RESELLER, 07bcf65f187117b4
 copper6.com, 766114, RESELLER
 loopme.com, 20775, RESELLER, 6c8d5f95897a5a3b
 openx.com, 563905670, RESELLER, 6a698e2ec38604c6
