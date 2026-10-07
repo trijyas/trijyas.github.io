@@ -40,7 +40,6 @@ connekt.ai, 5585919044, RESELLER
 smartclip.net, 14679, RESELLER
 triplelift.com, 14709, RESELLER, 6c33edb13117fd86
 brightmountainmedia.com, 2686958, RESELLER
-media.net, 8cusc3uj7, RESELLER
 pubmatic.com, 165854, RESELLER, 5d62403b186f2ace
 stroeer.com, 17379, RESELLER
 rubiconproject.com, 25060, RESELLER, 0bfd66d529a55807
