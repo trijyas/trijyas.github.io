@@ -1,3 +1,4 @@
+OWNERDOMAIN=trijyas.in
 #admob
 google.com, pub-7365679509423769, DIRECT, f08c47fec0942fa0
 
